@@ -45,7 +45,6 @@
                     <div class="form-group">
                       <input name="Nama" type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your Nama..." required>
                     </div>
-                    <h1>hhhh</h1>
                     <div class="form-group">
                       <input name="Username" type="text" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter your Username..." required>
                     </div>

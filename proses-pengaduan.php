@@ -1,5 +1,8 @@
 <?php
 session_start();
+if (empty($_SESSION['NIK'])) {
+    echo "<script>window.location.assign('index.php');</script>";
+}
 include 'koneksi.php';
 
 $sqli = "SELECT * FROM pengaduan ORDER BY id_pengaduan DESC";
