@@ -41,7 +41,7 @@
                           <!-- tombol -->
                           <a href="?url=detail-pengaduan&id=<?= $data['id_pengaduan'] ?>" class="btn btn-primary btn-icon-split">
                             <span class="icon text-white-5">
-                              <i class="fa fa-info"></i>
+                              <i class='bx bxs-info-square'></i>
                             </span>
                             <span class="text">Details</span>
                           </a>

@@ -40,7 +40,7 @@ if ($_POST['action'] == 'edit') {
     $sql = "INSERT INTO pengaduan(tgl_pengaduan,nik,isi_laporan) VALUES('$tgl_pengaduan','$nik','$isi_laporan')";
     if (mysqli_query($koneksi, $sql)) {
         echo "<script>alert('Pengaduan Berhasil Disimpan');</script>";
-        echo "<script>location.href='masyarakat.php?url=tulis-pengaduan';</script>";
+        echo "<script>location.href='masyarakat.php?url=lihat-pengaduan';</script>";
     } else {
         echo "gagal: " . mysqli_error($koneksi);
         echo "<script>alert('Pengaduan Gagal Disimpan'); window.location.assign(masyarakat.php?url=tulis-pengaduan);</script>";
