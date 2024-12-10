@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!empty($_SESSION['NIK'])) {
-  echo "<script>window.location.assign('index.php');</script>";
+  header('location:masyarakat.php');
 }
 ?>
 <!DOCTYPE html>
