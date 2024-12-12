@@ -31,7 +31,7 @@ CREATE TABLE `masyarakat` (
   `nik` char(16) NOT NULL,
   `nama` varchar(35) NOT NULL,
   `username` varchar(25) NOT NULL,
-  `password` varchar(32) NOT NULL,
+  `password` varchar(100) NOT NULL,
   `telepon` varchar(13) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -76,7 +76,7 @@ CREATE TABLE `petugas` (
   `id_petugas` int(11) NOT NULL,
   `nama_petugas` varchar(35) NOT NULL,
   `username` varchar(25) NOT NULL,
-  `password` varchar(32) NOT NULL,
+  `password` varchar(100) NOT NULL,
   `telepon` varchar(13) NOT NULL,
   `level` enum('admin','petugas') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
